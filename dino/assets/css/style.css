@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(234, 238, 216);}
+.sauro{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    background-image: url(dino.png);
+
+}
+
+.cactus{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    bottom: 0;
+    background-image: url(cactus.png);
+}
+
+.game-over{
+    text-align: center;
+    color: crimson;
+    margin-top: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+@keyframes deslizanu{
+    from{
+        background-position: 70000%;
+    }
+    to {
+        background-position: 0;
+    }
+}
+
+.bg{
+    position: absolute;
+    bottom: 0;
+    background-image: url(background.png);
+    background-repeat: repeat-x;
+    animation: deslizanu 600s infinite linear;
+    width: 100%;
+    height: 200px;
+}
