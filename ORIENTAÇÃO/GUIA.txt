@@ -1,0 +1,64 @@
+PARADIGMAS DE ORIENTAÇÃO
+Imperativo ou Declarativo
+
+Pilares - os programas sao objetos que possuem uma série de propriedades.
+
+Pilares da orientação a objetos - 
+Herança - poliformismo - encapsulamento e Abstração
+
+ABSTRAÇÃO - tornar o processo mais simples - processo mental que consiste em isolar um aspecto determinado de um estado de coisas relativamente complexo, para pertmitir a comunicação do mesmo
+
+
+HERANÇA - o objeto filho herda propriedades e métodos do objeto pai com os filhos tendo seus proprias caracteristicas 
+
+ENCAPSULMENTO -  cada classe tem propriedades e métodos independetes do restante do código
+
+Polimorfismo - Herdar a mesma classe pai, mas se comportarem de forma diferente quando invocamos seus metodos
+
+Protótipos - Todos os objetos do Js herdam propriedades e métodos de um prototype
+
+cadeia de prototipos(prototype chain)
+
+______________________________________________________
+MAP FILTER E REDUCE - Métodos de array
+
+MAP - Basicamente é quando um conjunto passa por uma operação e se torna outro conjunto
+CRIA UM NOVO ARRAY - NÃO MODIFICA O ARRAY ORIGINAL
+= REALIZA AS OPERAÇÕES EM ORDEM
+
+COMO IMPLEMENTAR?
+PEGUE SEU ARRAY e adicione um '.map( , )
+callback - função a ser executada em cada elemento
+thisArg(opcional) - dentro do callback 
+
+forEach - basicamente a mesma coisa
+
+const - array = [1, 2, 3, 4, 5];
+array.map((item)=>item*2);
+retora = 2, 4, 6, 8, 10
+
+usando FOREACH
+
+const array = [1, 2, 3, 4, 5];
+array.forEach((item)=> item*2);
+
+
+FILTER - como se voce colocasse o array dentro de um filtro e apenas os itens que passaram pelo filtro(cria novo array, não muda o original)
+SINTAXE  ----
+array.filter(callback, thisArg)
+
+const frutas = ['maçã fuji', 'maça verde, 'laranja', 'abacaxi'];
+frutas.filter((fruta)=>fruta.includes('maçã'))
+
+RETORNA APENAS ITENS QUE TENHAM MAÇÃ;
+'maçã fuji' e 'maçã verde' retornam a tela.
+
+
+REDUCE - executa uma função em todos os elementos do array, retornando um valor unico
+
+array.reduce(callback, thisArg)
+
+const callback = function(accumulator, currentValue, index, array){
+}
+array.reduce(callback, initialvalue)
+

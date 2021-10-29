@@ -1,0 +1,22 @@
+VAR CONST E LET
+
+Upper case snake case - muito ultilizado para contantes
+
+Var e Let
+VAR - escobo global
+LET - escopo de bloco - só funciona dentro de uma condição, fora de uma (exemplo de condição 'if') ela não funciona,
+fazendo com que a composição fique mais segura
+
+HOISTING - atribuir um valor a uma variável antes de declarar ela(var)
+REDECLARAÇÃO - VAR - quando você declara dentro de uma estrutura de repetição por exemplo
+REATRIBUIÇÃO - Var e Let - 
+
+
+Constantes - não faz hoisting 
+escopo de bloco
+
+
+Ultilizar craze `${} ${}` e cifrão para concatenar
+
+
+

@@ -1,0 +1,50 @@
+Operadores
+
+OPERADORES DE   ATRIBUIÇÃO -  ' = '  '+=' '*=' '/=' '%='
+		ARITMÉTICA -
+		COMPARAÇÃO - 
+		LÓGICA -
+		CONDICIONAL -
+
+VARIAVEIS E TIPOS
+ATRIBUIÇÃO -   '=' - VARIAVEL '=' VARIVEL	
+		+= - x += y equivale a x = x+y
+		*= - segue a lógica multiplicando
+		/= - Segue a lógica dividindo
+		%= - (módulo) Segue a lógica mostrando o resto da divisão feita entre as variáveis
+
+ARITMETICA  -   + - adição
+		- - Subtração
+		* - Multiplicação
+		** - Exponêncial
+		/ - Divisão
+		% - Módulo
+		++ - Incrementar
+		-- - Decrementar
+
+COMPARAÇÃO -    ==  -  IGUAL A
+		=== - MESMO VALOR E MESMO TIPO QUE
+		!=  - DIFERENTE
+		!== - VALOR E TIPOS DIFERENTES
+		>   - MAIOR QUE
+		<   - MENOR QUE
+		>=   - MAIOR OU IGUAL A
+		<=   - MENOR OU IGUAL A
+
+LÓGICA -	&& = 'e' lógico - para confirmar duas afirmações verdadeiras ( se essa afirmação e aproxima forem verdadeiras, quero executar tal ação)  
+usados 		|| = 'ou' Lógico - só precisa que uma das afirmações for verdadeira ele consegue entrar na sua condicional efetuando a instrução
+		! - 'não' lógico - para contrariar a condição
+
+
+OPERADOR CONDICIONAL - TERNÁRIO - CONDIÇAO 'tal' para expresao um
+mais usado que escrever um if,else grande, usando ponto de interrogação
+e dois pontos
+return saoIguais ? "Sao iguais" : "Não são iguais";
+
+			
+		
+
+
+				 
+   
+		

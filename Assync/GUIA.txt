@@ -1,0 +1,97 @@
+assincronicidade
+promisses
+REQUISIçÔES DE APIS
+
+nao ocorre ou nao se efetiva ao mesmo tempo(aula ead do youtube)
+fazer as coisas no seu proprio tempo
+
+no java assincrono podemos fazer uma coisa enquanto faz outra tambem
+
+PROMISSES - objeto de processamento - pode ser resolvida ou rejeitado - valor desconhecido inicialmente
+  Pending - Fullfilled - Rejected
+
+Pending - pendente
+FullFilled - completado
+Rejected - rejeitada
+(NEW)
+estrutura 
+const mypromisse = new promisse((resolve,reject) =>{
+window.setTimeout(console.log('Resolvida!'));
+	},2000);
+)
+
+
+assincronas precisam das duas palavras chaves ASSYNC FUNCTION
+
+   asyn function resolverPromisse();{
+	const myPromise = NEW Promisse((resolve,reject)=>{
+	window.setTimeout(()=>{
+	resolve('resolvida');
+}, 3000);
+});
+
+	const resolved = AWAIT myPromisse
+	.then((result)=>result + 'passando pelo then')
+	.then((result)=>result + 'e agora acabou!')
+	.catch((err)=>console.log(err.message));
+
+await mypromisse
+.then((result)=> result + 'passando pelo then')
+.then((result)+> result + 'e agora acabou')
+.catch((er)=>console.log(err.message));
+
+	return resolved;
+}
+
+TRY - Catch - Erros, resultado
+
+
+
+A P I S  ____
+
+forma de intermediar o back-end com o front-end.
+
+acessar por meio de urls
+
+DATABASE - APIs - Mobile apps, web apps, outras APIs
+
+json: formato que retorna os dados, formato de objeto com colchete
+
+
+Fetch -
+fetch(url, options)
+	.then(respose=>response.json())
+	.then(json=>console.log(json))
+retorna uma promisse
+(precisa usar await)
+
+fetch('https>//endereco-api.com/',{
+	method: 'GET'
+	cache: 'no-cache',
+})
+	.then(response=>response.json())
+	.then(json=>console.log(json));
+
+POST - converter de Json para String(json.stringify(data)
+
+
+SEMPRE RETORNA PROMISSE
+
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

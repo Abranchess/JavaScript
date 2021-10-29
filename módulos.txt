@@ -1,0 +1,39 @@
+ESTILOS - DOM-html E BOM-browser
+element.classList.add
+classList.remove
+classList.toggle  adiciona caso nao faça parte da lista e remove caso faça
+document.querySelectorAll('#sobre.fullscreen')
+
+eventos do JS- 
+mouseouver, mouseout
+
+eventos de clique
+click , dbclick
+
+eventos de atualização
+change, load
+
+acionando eventos - 'addEventListener("Tipo do evento", o que fazer depois que o evento for acionado);
+
+atributo em html - especifica a função a ser chamada diretamente no  elemento html 'onclick'
+sempre adicionado o on
+
+-MODULOS-
+counter - display
+
+Import - Export - Default Export(1por arquivo)
+
+export{
+	function tal;
+	function taltal;
+}
+
+import{tal, var, classe} from '.ondeestáoaqruivo.extensão'
+
+import{ arquivo as APELIDO} from '.ondeestáoarquivo.extensão'
+
+APELIDO.metodo();
+
+
+
+

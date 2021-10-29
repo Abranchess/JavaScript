@@ -1,0 +1,133 @@
+looops
+
+ARGUMENTO "THIS"
+
+variaveis criadas dentro de uma função podem ser
+ultilizadas apenas dentro dela
+
+FUNCTION EXEMPLO(parametros) {
+	**INSTRUÇÕES DA FUNÇÃO
+}
+
+Se adicionarmos o retunr dentro da função, ela 
+para de executar a função, retornando o valor 
+após a função
+
+FUNCTION EXEMPLO(parametros) {
+	**INSTRUÇÕES DA FUNÇÃO
+retunr;
+}
+
+
+FUNÇÃO ANONIMA - uma variavel que pode armazenar
+uma função
+
+cost SOMA = function(a, b) {
+	return a+b;
+}
+
+a função (a ,b) não nomeada(anônima), está
+relacionada a variavel 'const' - retornando "a" 
+e "b"
+
+
+soma (1, 2) = RETORNA 3]
+
+FUNÇÃO AUTOINVOCÁVEL ( IIFE )
+uma função anônima declarada entre parenteses
+seguida de outro parentesis que representa sua
+chamada
+EXEMPLO
+
+   (
+	function(){
+	   let name = "DIO"
+	   return name;
+}
+) ();
+
+UM PARENTESIS PARA ABERTURA DA FUNCTION
+E OUTRO PARA CHAMAR A FUNCTION
+
+Também pode ser utilizada com parâmetros ou
+armazenada em uma variável
+
+(
+	function(a ,b){
+	   return a + b;
+}
+) (1, 2);
+
+RETORNA = 3
+
+
+const soma3 =(
+	function(){
+	   return a + b;
+}
+) (1, 2);
+
+console.log(soma3)
+ RETORNA = 3
+
+CALLBACKS - uma função passada como argumento 
+para outra
+
+utilizando callbacks, temos maior controle da 
+ordem de chamadas.
+
+const CALCULO = function(operacao, num1, num2){
+	return operacao(num1, num2);
+}
+
+const SOMA = function(num1, num2){
+	return num1 + num2;
+}
+
+const SUBTRAI = function(num1, num2){
+	return num1 - num2;
+}
+			     num1, num2
+const somaRes = CALCULO(soma, 1, 2);
+const subtRes = CALCULO(SUBTRAI, 1, 2);
+
+console.log(somaRes); = 3
+console.log(subtRes); = -1
+
+Arguments - '-infinity- = valores negativos e
+positivos
+
+SPREAD - "...VARIAVEL)
+
+rest - combina os argumentos em um array 
+
+LOOP - DECLARAÇÔES MAIS IMPORTANTES
+
+If/Else 
+ else if - 
+for/while (for prop IN ) - propriedades enumeráveis
+for of -  
+While - executa instruções até que seja falso
+do/While - 
+
+PALAVRADA THIS - 
+é uma referencia de contexto -this.
+
+MANIPULAR VALOR DE THIS - PARA QUE O CODIGO SEJA
+EXECUTADO DE ACORDO COM O QUE QUEREMOS
+call - para colocar o objeto a qual o this se refere
+Apply - argumentos dentro de um array 
+BIND - clona a estrutura da função onde foi chamado
+passando o valoro do objeto como parametro
+
+
+arrowfunction- sempre em constantes e n faz hoisting
+ _________________________________________________________________________________________________________________
+COLEÇÕES -  MAP E SET - 
+
+_________________________________________________________
+
+
+
+
+

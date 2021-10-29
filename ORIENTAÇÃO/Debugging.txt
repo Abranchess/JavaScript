@@ -1,0 +1,59 @@
+Testes automatizados
+-testes unitarios
+-testes integrados
+-testes funcionais - testes end to end - vai testar a integração do sistema com outros sistemas
+
+
+
+
+testes manuais e automatizados
+-testes de usabilidade
+-testes de aceitação do usuario
+-prototipos
+-testes funcionais
+-ALPHA E BETA
+
+ferramentas de teste
+-teste de carga e performance
+-testes de segurança
+
+
+TDD - test Driven Development
+é umd os pilares do extreme programing, consiste em refatorar em pequenos ciclos, onde voce escreve o teste antes do codigo, faz o mesmo passar e rafatora o código
+
+BDD - Behavior Driven Development
+-Técnica de Desenvolvimento ágil que visa integrar regras de negócio com linguagens de programação - documentar melhor as funcionalidades
+
+DUVIDAS -MOCHA - ONDE INICIAR - GIT? RODA NO TERMINAL
+descrever o que você está testando
+describe('classes na qual voce vai testar', function(){
+descrever um corportamento esperado com IT
+it('soma dois numeros', function(){
+});
+});
+}
+
+SKIP -Ignorar o teste ao invés de comentá-lo
+
+hooks - eveitar repetição - beforeEach
+
+
+CHai - n é tanto descritivo quanto deveria
+'expect'
+
+ferramenta de asserts - algo parecido com o que o assert faz - ( Escreve uma mensagem de erro para o console se a afirmação é falsa. Se a firmação é verdadeira, nada acontece.)
+
+
+SInon- sinon.stub - ter o controle e invocar varios tipos de cenarios e observar a maneira que eles estão sendo manipulados - DUVIDA
+
+criar diversos tipos de cenario para auxiliar durante o desenvolvimento - combinação das 3 ferramentos para fazer o TDD(codigo mais legivel) um teste que sirva como documentação
+
+TRATAMENTO DE ERROS ____________
+usar try catch para capturar o erro)err)
+e o codigo continua sendo executado.
+
+finnaly - bloco finally é utilizado para garantir que um código seja executado após um try , mesmo que uma exceção tenha sido gerada. Mesmo que tenha um return no try ou no catch , o bloco finally é sempre executado.
+
+
+
+DEBUGGING - 
